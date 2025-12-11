@@ -137,3 +137,5 @@ enum SystemState {
 #define WEB_SERVER_PORT      80
 
 #endif
+
+// POWERED BY DDG

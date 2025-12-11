@@ -140,3 +140,5 @@
 
 - **并发安全**: `WebServer` 回调在独立任务中运行，修改全局变量（如 `currentState`）时需注意线程安全，或使用标志位（如 `pendingManualCmd`）在主循环中处理。
 - **NVS 寿命**: 避免在循环中高频调用 `params.save()`，这会损耗 Flash 寿命。仅在 Web 端点击“保存”时调用。
+
+POWERED BY DDG

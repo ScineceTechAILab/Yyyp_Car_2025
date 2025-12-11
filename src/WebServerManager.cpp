@@ -1700,3 +1700,5 @@ void WebServerManager::clearLogs() {
         xSemaphoreGive(mutex);
     }
 }
+
+// POWERED BY DDG
